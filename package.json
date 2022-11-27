@@ -12,5 +12,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murillopes/Cypress_Project_2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Murillopes/Cypress_Project_2/issues"
+  },
+  "homepage": "https://github.com/Murillopes/Cypress_Project_2#readme",
   "description": ""
 }
