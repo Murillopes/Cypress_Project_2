@@ -9,6 +9,7 @@ it('Read files using fixture', function () {
     cy.fixture('example.json').then((x) => {
         cy.log(x.name)
         cy.log(x.email)
+        cy.log(x.body)
 
     })
 
