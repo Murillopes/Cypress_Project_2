@@ -1,4 +1,4 @@
-import { LoginPage } from "..e2e/Pages/Login_Page"
+import { LoginPage } from "../e2e/Pages/Login_Page"
 
 
 //Criação de variável para acessar os métodos da classe
