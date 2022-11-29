@@ -1,9 +1,9 @@
 export class LoginPage {
 
     // Definição dos Elemetos da Tela de login
-    username_textbox = ':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input';
-    password_textbox = ':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input';
-    login_button = '.oxd-button';
+    username_textbox = 'input[name="username"]';
+    password_textbox = 'input[name="password"]';
+    login_button = 'button[type="submit"]';
 
 
     // MÉTODOS
