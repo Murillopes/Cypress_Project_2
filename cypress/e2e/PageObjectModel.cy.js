@@ -20,7 +20,7 @@ describe('ALL TESTS', function () {
         cy.get(':nth-child(1) > .oxd-main-menu-item > .oxd-text').click();
     });
 
-    it('Login with Invalid user', function () {
+    it.skip('Login with Invalid user', function () {
         // Chamada dos Métodos com parametros que eu forneço
         login.enterUsername('Admin123');
         login.enterPassword('admin123');
@@ -29,7 +29,7 @@ describe('ALL TESTS', function () {
     });
 });
 
-it('Login with Invalid password Test', function () {
+it.skip('Login with Invalid password Test', function () {
     // Chamada dos Métodos com parametros que eu forneço
     login.enterUsername('Admin');
     login.enterPassword('admin1234');

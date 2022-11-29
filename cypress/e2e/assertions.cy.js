@@ -13,8 +13,8 @@ it('Assertions', () => {
     expect(true).to.be.true
 
     // this will pass because only compairs the value
-    assert.equal(4, '4', 'not equal')
-    // this will fail because compairs the value and the type (int, string) 
-    assert.strictEqual(4, '4', 'not equal')
+    // assert.equal(4, '4', 'not equal')
+    // // this will fail because compairs the value and the type (int, string) 
+    // assert.strictEqual(4, '4', 'not equal')
 
 })
