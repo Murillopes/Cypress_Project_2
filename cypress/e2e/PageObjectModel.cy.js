@@ -13,7 +13,7 @@ beforeEach(function () {
 describe('ALL TESTS', function () {
 
     it('Login with valid credentials', function () {
-        // Chamada dos Métodos com parametros que eu forneço
+        // Chamada dos Métodos com parametros que eu forneço!
         login.enterUsername('Admin');
         login.enterPassword('admin123');
         login.clickLogin();
